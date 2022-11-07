@@ -25,12 +25,13 @@
     <link href="./vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="./vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="./css/custom-tm.css" rel="stylesheet">
+
+
 
     <!-- extra css  -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link href="./css/custom-tm.css" rel="stylesheet">
 
 </head>
 
@@ -73,7 +74,7 @@
                     <p class="section-description">Find out what happened in our previous events.</p>
                 </div>
 
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="row" data-aos="fade-up" data-aos-delay="50">
                     <div class="d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter=".filter-new">Upcoming Events</li>
@@ -84,19 +85,27 @@
                     </div>
                 </div>
 
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
 
                     <!-- UPCOMING EVENTS  -->
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-new">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-new" id="next">
                         <a href="./images/assets/events/techcareers2.jpg" data-gallery="portfolioGallery"
                             class="portfolio-lightbox preview-link"
                             title="Programming FUndamentals Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ut atque laborum placeat deserunt.">
 
-                            <img src="./images/assets/events/techcareers2.jpg" class="img-fluid" alt="">
+                            <img src="./images/assets/events/againstallodds.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Programming Fundamentals</h4>
-                                <p>Python</p>
+                                <h4>Against All Odds</h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>Tech Talk</p>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="text-dark fw-bold">12th Nov, 2022</p>
+                                    </div>
+                                </div>
+
                                 <i class="bx bx-plus"></i>
                             </div>
                         </a>
@@ -105,10 +114,17 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-new">
                         <a href="./images/assets/events/productdesign.jpg" data-gallery="portfolioGallery"
                             class="portfolio-lightbox preview-link" title="Product Design">
-                            <img src="./images/assets/events/productdesign.jpg" class="img-fluid" alt="">
+                            <img src="./images/assets/events/embracingCloud.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Product Design</h4>
-                                <p>UI / UX</p>
+                                <h4>Embracing Cloud Technologies</h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>Cloud Computing</p>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="text-dark fw-bold">26th Nov, 2022</p>
+                                    </div>
+                                </div>
                                 <i class="bx bx-plus"></i>
 
                             </div>
@@ -118,10 +134,37 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-new">
                         <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
                             title="KYUCSA WORKSHOPS">
-                            <img src="./images/assets/events/techcareers0.jpg" class="img-fluid" alt="">
+                            <img src="./images/assets/events/exploreGis.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App Development</h4>
-                                <p>ANDROID</p>
+                                <h4>Explore GIS</h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>GIS</p>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="text-dark fw-bold">18th Nov, 2022</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-new">
+                        <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
+                            title="KYUCSA WORKSHOPS">
+                            <img src="./images/assets/events/devfest2022.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Google 2022 Devfest</h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p>Dev Meetup</p>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <p class="text-dark fw-bold">3rd Dec, 2022</p>
+                                    </div>
+                                </div>
 
                             </div>
                         </a>
@@ -135,10 +178,10 @@
                     <div class="col-lg-4 col-md-6 portfolio-item filter-past">
                         <a href="" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
                             title="Introduction to Firebase">
-                            <img src="./images/assets/events/techcareers.jpg" class="img-fluid" alt="">
+                            <img src="./images/assets/events/productdesign.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Introduction to Firebase</h4>
-                                <p>WEB</p>
+                                <h4>Product Design</h4>
+                                <p>UI / UX </p>
                                 <i class="bx bx-plus"></i>
 
                             </div>
@@ -150,8 +193,8 @@
                             title="KYUCSA WORKSHOPS">
                             <img src="./images/assets/events/pythontalk.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Intro to Web Frameworks</h4>
-                                <p>WEB</p>
+                                <h4>Building Your Career</h4>
+                                <p>Tech Talk</p>
                             </div>
                         </a>
                     </div>
@@ -161,12 +204,33 @@
                             class="portfolio-lightbox preview-link" title="App Development with Kotlin - KYUCSA 2022">
                             <img src="./images/assets/events/techcareers0.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App Development</h4>
-                                <p>ANDROID</p>
+                                <h4>Programming Fundamentals</h4>
+                                <p>PYTHON</p>
                             </div>
                         </a>
                     </div>
 
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-past">
+                        <a href="./images/assets/events/techcareers0.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link" title="App Development with Kotlin - KYUCSA 2022">
+                            <img src="./images/assets/events/fruitpunch.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>AI for Good</h4>
+                                <p>Application of AI</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-past">
+                        <a href="./images/assets/events/techcareers0.jpg" data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link" title="App Development with Kotlin - KYUCSA 2022">
+                            <img src="./images/assets/events/webdev.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web Development</h4>
+                                <p>HTML, CSS & JS</p>
+                            </div>
+                        </a>
+                    </div>
                     <!-- PAST EVENTS  -->
 
                 </div>

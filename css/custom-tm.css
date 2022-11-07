@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 * Desktop Navigation 
 */
 .navbar {
+  
   padding: 0;
 }
 .navbar ul {
@@ -130,18 +131,20 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .navbar li {
+  
   position: relative;
 }
 .navbar > ul > li {
   white-space: nowrap;
   padding: 10px 0 10px 24px;
 }
+
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #2F5BE7;
   font-size: 14px;
   padding: 0 4px;
   white-space: nowrap;
@@ -151,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 .navbar a i, .navbar a:focus i {
+  color: #2dca98;
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -172,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: scaleX(1);
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: rgb(248, 83, 18);
 }
 .navbar .dropdown ul {
   display: block;
@@ -232,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #2F5BE7;
   font-size: 28px;
   cursor: pointer;
   display: none;
